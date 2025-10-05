@@ -1,0 +1,10 @@
+mvn test
+
+mvn test -Dcucumber.filter.tags="@PlaceOrderTest"
+
+mvn test -Dcucumber.features="C:\Repositories\My_Upwork_Projects\BDD_with_Java_Selenium_Framework_Demo_02\src\test\java\features\checkout.feature"
+
+mvn test -Dcucumber.features="C:\Repositories\My_Upwork_Projects\BDD_with_Java_Selenium_Framework_Demo_02\src\test\java\features\checkout.feature" -Dbrowser=firefox
+
+
+

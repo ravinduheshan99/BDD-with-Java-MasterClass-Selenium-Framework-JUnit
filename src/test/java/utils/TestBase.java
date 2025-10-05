@@ -26,7 +26,7 @@ public class TestBase {
 
         if (driver==null){
             if (executingBrowser.equalsIgnoreCase("chrome")){
-                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\resources\\ChormeDriver\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\resources\\ChromeDriver\\chromedriver.exe");
                 driver = new ChromeDriver();
             }
             if (executingBrowser.equalsIgnoreCase("firefox")) {
